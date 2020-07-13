@@ -1,11 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Queen Paris</title>
+  <link rel="stylesheet" href="http://soupdrum.com/bootstrap4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="http://soupdrum.com/bootstrap4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="indexscript.js"></script>
+  <link rel="stylesheet" type="text/css" href="indexstyle.css">
 </head>
-<body>
-    
+
+<body style="background-color: black;">
+  <img class="container-fluid img-fluid p-0" src="parisbg2.png">
+  <main>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="background-color: black;">
+      <div class="container">
+        <ul class=" navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">1337 <b>SITE</b></a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Page 1</a>
+              <a class="dropdown-item" href="#">Page 2</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><b>Links</b></a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Tumblr</a>
+              <a class="dropdown-item" href="#">Instagram</a>
+              <a class="dropdown-item" href="#">Cash App</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row m-2 pt-3" style="background-color: purple; color: gold;">
+      <div class="col-sm">
+        <div class="card bg-dark">
+          <div class="card-body">
+            <h2 class="card-title">What up bitches</h2>
+            <blockquote class="blockquote">
+              <p>Yall</p>
+              <footer class="blockquote-footer"><cite title="Soup">Soup</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+        <br>
+        <div class="card bg-dark">
+          <div class="card-body">
+            <script>
+              generateText(1);
+            </script>
+          </div>
+        </div>
+        <br>
+      </div>
+      <!-- ° ^ ° -->
+      <div class="col-sm-3 pt-2">
+        <div class="card bg-dark">
+          <div class="card-body">
+            <h2 class="card-title">
+              It's My Pleasure!
+            </h2>
+            <p class="card-text">
+              <script>
+                generateText(1);
+              </script>
+            </p>
+            <footer class="card-footer">
+              <sub>Today is: <script>
+                  showDate();
+                </script></sub>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
+
 </html>

@@ -1,0 +1,7 @@
+.capitalize::first-letter {
+    text-transform: capitalize;
+}
+bg-dark {
+  background: #973BAF;
+  
+}
